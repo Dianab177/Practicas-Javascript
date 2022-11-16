@@ -33,6 +33,7 @@ console.log(carro.caracteristicas.color);
 //Array con diez números.
 let numeros = [0, 1, 2, 3, 4, 5, 6,7, 8, 9];
 //For
+/*
 for (let num = 0; num < array.length; num ++) {
     const element = numeros [num];
     console.log(element);
@@ -53,5 +54,16 @@ void eliminaPares(){
  }
  let numero_pares = numeros.filter(function (numeros) {
     return numeros % != 2
+
+ let numero_pares = numeros.filter(function (numero) {
+    return numero % 2 == 0;
  });
- console.log(numero_pares);
+ console.log(numero_pares); console.log(numero_pares);
+ let numerosOrdenados = numeros.findIndex(numero_pares);
+ console.log(numerosOrdenados);
+
+ if (numeros.includes([numero_pares])) {
+    delete numeros.numero_pares
+ }
+
+console.log(numeros);
