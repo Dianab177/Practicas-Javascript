@@ -88,7 +88,7 @@ console.log(x);
 
 console.log( "alphabet".toUpperCase() );
 console.log( "alphabet".toLowerCase() );
-
+*/
 let nombre = [{name:'maria'},{name:'josefina'} ,{name: 'teresita'}];
 nombre.forEach(i => {
     // reemplazar total_kills_
@@ -99,7 +99,7 @@ nombre.forEach(i => {
   });
   
   console.log(nombre);
-*/
+
 let suNombre = [
     {nombres: 'Lola'},
     {nombres: 'Josefa'},
@@ -113,6 +113,9 @@ let suNombre = [
     {nombres: 'Carla'},
 ]
 console.log(suNombre);
+function mostrarLista(suNombre) {
+    //imprimir en pantalla
+}
 
 let numbers = [0, 1, 2, 3, 4, 5, 6,7, 8, 9];
 numbers.forEach(element => console.log(element));
